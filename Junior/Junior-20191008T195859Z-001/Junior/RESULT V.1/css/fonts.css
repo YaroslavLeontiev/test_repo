@@ -1,0 +1,19 @@
+/* FONTS STYLES*/
+@font-face {
+    font-family: 'Roboto Condensed'; 
+    src: local('RobotoCondensed-Bold'), 
+		 url('fonts/Roboto Condensed-Bold.ttf') format('truetype'),
+		 url('fonts/robotocondensed-bold-webfont.woff') format('woff'),
+		 url('fonts/robotocondensed-bold-webfont.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Condensed'; 
+    src: local('RobotoCondensed-Regular'), 
+		 url('fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+		 url('fonts/robotocondensed-regular-webfont.woff') format('woff'),
+		 url('fonts/robotocondensed-regular-webfont.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}

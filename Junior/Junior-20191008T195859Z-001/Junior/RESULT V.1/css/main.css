@@ -1,0 +1,158 @@
+body {
+	margin: 0px;
+}
+img {
+	border: none;
+	outline: none;
+}
+.container {
+	width: 1366px;
+	height: 768px;
+	background-color: #08528a;
+	font-family: 'Roboto Condensed';
+}
+.settings-btn {
+	width: 88px;
+	height: 88px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 69px;
+	border: 2px solid #1c77b2;
+	border-radius: 22px; /* CSS3 property*/
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	float: right;
+}
+.settings-btn img{
+	padding: 25px;
+}
+.button-group {
+	clear: both;
+	margin: 0 44px 0 88px;
+}
+.button-wrapper {
+	width: 368px;
+	height: 368px;
+	background-color: #063d70;
+	border: 1px solid #063d70;
+	border-radius: 64px; /* CSS3 property*/
+	-moz-border-radius: 64px;
+	-webkit-border-radius: 64px;
+	float: left;
+	margin-bottom: 150px;
+	margin-right: 40px;
+}
+a.btn {
+	width: 328px;
+	height: 328px;
+	margin: 20px;
+	background-color: #fbfcfd;
+	border: 1px solid #fbfcfd;
+	border-radius: 50px; /* CSS3 property*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	font-size: 32px;
+	text-decoration: none;
+	display: block;
+}
+
+.btn .btn-text {
+	padding: 0 50px;
+	margin-bottom: 44px;
+	color: #004483;
+	text-align: center;
+	font-weight: 700;
+}
+.btn .alert-message span {
+	display: block;
+}
+.btn img {
+	padding-top: 61px;
+	margin-bottom: 9px;
+}
+.btn1 img {
+	padding-left: 90px;
+}
+.btn2 img {
+	padding-left: 111px;
+}
+.btn3 img {
+	padding-left: 110px;
+}
+/** класс для изменения прозрачности **/
+.low-opacity {
+	background-color: #074a7d;
+}
+.low-opacity  > .btn{
+	opacity: 0.3;
+}
+.low-opacity  > .btn-value {
+	opacity: 0.5;
+}
+/** класс для изменения прозрачности , достаточно применить к любому контейнеру button-wrapper**/
+
+.footer {
+	clear: both;
+	padding: 5px;
+	font-size: 18px;	
+}
+.footer  {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0 40px 18px;
+}
+.footer .trademark {
+	float: right;
+	color: #4282c2;
+}
+.footer .company-name {
+	color: #8bbbeb;
+}
+
+/**** alert message block *******/
+.alert-message-block {
+	position: relative;
+	width: 336px;
+	height: 74px;
+	float: none;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 20px; /* CSS3 property*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	padding: 32px 26px 28px 26px;
+	top: 10px;
+	right: 10px;
+}
+.alert-message-block .alert-message {
+	font-size: 20px;
+	text-align: center;
+	color: #f11030;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+.alert-message-block p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #43505a;
+	line-height: 19px;
+}
+.alert-message-block .recomendation{
+	font-style: normal;
+	font-weight: 700;
+	text-align: left;
+	color: #004483;
+}
+.alert-message-block:before { /* стиль для треугольника в алерте  */
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: -19px;
+	left: 45%;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;/*сторона трейгольника примерно 18.41*/
+	border-bottom: 18px solid #fff;
+}
+/**** flert message block *******/
